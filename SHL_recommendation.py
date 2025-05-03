@@ -23,7 +23,7 @@ st.markdown(
 # ---- LOAD DATA ----
 @st.cache_data
 def load_catalog():
-    df = pd.read_csv(r"C:\Users\99ash\Downloads\SHL_catalog.csv")
+    df = pd.read_csv(SHL_catalog.csv)
     df = df.fillna("")
     return df
 
