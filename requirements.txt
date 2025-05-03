@@ -16,3 +16,4 @@ pysqlite3-binary
 langchain
 langchain-community
 chromadb
+langchain-groq
