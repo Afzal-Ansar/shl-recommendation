@@ -7,8 +7,8 @@ torch
 matplotlib
 requests
 bs4
-sentence-transformers==1.2.1
-transformers==4.36.2
+sentence-transformers
+transformers
 python-dotenv
 fastapi
 uvicorn
@@ -16,3 +16,4 @@ langchain-community
 langchain-core
 langchain-groq
 chromadb
+langchain
