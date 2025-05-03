@@ -1,4 +1,7 @@
 # shl_langchain_llama3_streamlit.py
+__import__("pysqlite3")
+import sys
+sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
 
 import streamlit as st
 import pandas as pd
