@@ -4,7 +4,7 @@ import streamlit as st
 import pandas as pd
 from langchain_community.embeddings import HuggingFaceBgeEmbeddings
 from langchain_groq import ChatGroq
-from langchain.vectorstores import Chroma
+from langchain_community.vectorstores import Chroma
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.schema import Document
 from langchain.chains import RetrievalQA
