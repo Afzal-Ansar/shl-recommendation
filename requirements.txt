@@ -12,8 +12,8 @@ transformers>=4.36.2
 python-dotenv
 fastapi
 uvicorn
-pysqlite3-binary
+chromadb
 langchain
 langchain-community
-chromadb
+pysqlite3-binary
 langchain-groq
