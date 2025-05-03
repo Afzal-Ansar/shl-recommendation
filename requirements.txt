@@ -17,3 +17,4 @@ langchain
 langchain-community
 pysqlite3-binary
 langchain-groq
+faiss-cpu
