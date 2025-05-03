@@ -16,7 +16,6 @@ st.markdown(
 )
 
 # ---- LOAD DATA ----
-@st.cache_data
 def load_catalog():
     df = pd.read_csv("SHL_catalog.csv")
     df = df.fillna("")
@@ -25,7 +24,6 @@ def load_catalog():
 df = load_catalog()
 
 # ---- BUILD VECTOR DB WITH FAISS ----
-@st.cache_resource
 def build_vector_db(df):
     # Combine relevant fields for semantic search
     docs = []
