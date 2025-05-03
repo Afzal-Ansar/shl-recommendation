@@ -12,3 +12,5 @@ transformers==4.36.2
 python-dotenv
 fastapi
 uvicorn
+langchain-community
+langchain-core
