@@ -15,7 +15,7 @@ CATALOG_CSV = "SHL_catalog.csv"
 
 # ---- LOAD DATA ----
 def load_catalog():
-    df = pd.read_csv(r"C:\Users\99ash\Downloads\SHL_catalog.csv")
+    df = pd.read_csv(CATALOG_CSV)
     df = df.fillna("")
     return df
 
